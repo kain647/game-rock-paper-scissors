@@ -96,7 +96,7 @@ const Game = () => {
 
   const result = players.length > 0 ? labels[lang][players[2]] : "";
   const animeLose =
-    players[2] == "lose" ? "animate__animated animate__hinge" : "";
+    players[2] == "lose" ? "animate__animated animate__flash" : "";
   const animeWin = players[2] == "win" ? "animate__animated animate__tada" : "";
 
   return (
